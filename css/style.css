@@ -18,13 +18,22 @@ h1 {
     margin-bottom: 0;
 }
 
+#author {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: lighter;
+}
 
+a {
+    color: #20A9E5;
+    text-decoration: none;
+    font-weight: lighter;
+}
 
-
-.writer-date {
+h6 {
+    margin-top: 0%;
     color: grey;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    font-weight: lighter;
 }
 
 figure {
@@ -40,6 +49,7 @@ ul {
 table {
     border-collapse: collapse;
     text-align: left;
+
 
 }
 
@@ -57,13 +67,7 @@ thead {
 
 
 
-
-
 /*footer*/
-
-footer {
-    text-indent: 5px;
-}
 
 .desktop {
     width: 220px;
@@ -71,13 +75,13 @@ footer {
     color: white;
     margin: 10px 0;
     font-weight: 800;
-    font-size: 130%;
+    font-size: 115%;
     padding-top: 10px;
-    padding-left: 6px;
+    padding-left: 10px;
 
 }
 
-h3 {
+h4 {
     color: grey;
 }
 
@@ -94,5 +98,5 @@ h3 {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    border: 2px dashed red;
+
 }
