@@ -27,22 +27,54 @@ h1 {
     margin-bottom: 2px;
 }
 
+figure {
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
 
+ul {
+    padding-left: 20px;
+}
+
+/*table*/
+table {
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+thead {
+    background-color: #20A9E5;
+    color: white;
+    height: 10px;
+
+}
+
+#row1,
+#row3 {
+    background-color: #B1E5F2;
+}
+
+
+
+
+
+/*footer*/
+
+footer {
+    text-indent: 5px;
+}
 
 .desktop {
     width: 220px;
     height: 180px;
     color: white;
     margin: 10px 0;
-    font-weight: 300;
+    font-weight: 800;
     font-size: 130%;
+    padding-top: 10px;
+    padding-left: 6px;
 
-}
-
-/*footer*/
-
-footer {
-    font-weight: bold;
 }
 
 h3 {
